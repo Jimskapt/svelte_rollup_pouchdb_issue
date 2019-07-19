@@ -1,5 +1,9 @@
 <script>
+	import PouchDB from 'pouchdb-browser';
+
 	export let name;
+
+	let db = new PouchDB('test');
 </script>
 
 <style>
